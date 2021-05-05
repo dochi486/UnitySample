@@ -1,11 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
     public Animator animator;
+    public TextMeshPro hpNumber;
+    public Transform hpBar;
+    public int maxHp;
+    public int currentHp;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,7 +24,6 @@ public class Monster : MonoBehaviour
 
     public float dieDelay = 1.0f;
     public float speed = -5f;
-
 
     private IEnumerator OnDie()
     {
