@@ -1152,7 +1152,7 @@ MonoBehaviour:
   animator: {fileID: 95237074988894122}
   hpNumber: {fileID: 1593383777}
   hpBar: {fileID: 1773424227}
-  maxHp: 0
+  maxHp: 3
   currentHp: 0
   dieSound: {fileID: 2269415310044819673}
   delayDieSound: 0.3
